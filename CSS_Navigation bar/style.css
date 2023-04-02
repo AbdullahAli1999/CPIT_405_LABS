@@ -1,0 +1,35 @@
+body {
+    background-color: white;
+}
+
+nav {
+    background-color: rgb(1, 61, 32);
+    border-radius: 10px;
+}
+
+nav ul li {
+    list-style: none;
+    float: left;
+
+    margin: 10px 20px;
+}
+
+nav ul {
+    overflow: auto;
+}
+
+nav ul li a {
+    color: rgb(216, 179, 116);
+    text-decoration: none;
+
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.search input {
+    float: right;
+    padding: 12px 75px;
+
+}
