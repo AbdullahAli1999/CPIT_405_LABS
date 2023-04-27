@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Events</title>
+
+</head>
+
+<body>
+    <h1>Mouse Events</h1>
+    <button onclick="handleClick()"> Click me!! (HTML)!</button>
+    <button id="clickMeBtn"> Click me!! (JS)!</button>
+
+
+    <h1>Keyboard Events Inline</h1>
+
+    <p>Type in any number in either English numerals or Arabic numerals:</p>
+    <input type="text" onkeyup="handleMyKeyEvent(event)">
+    <p id="result">You've entered: </p>
+
+    <h1>Keyboard Events in the DOM</h1>
+    <input id="inputField" placeholder="Enter some text" type="text">
+    <div id="result"></div>
+
+
+    <script src="./spript.js"></script>
+</body>
+
+</html>
