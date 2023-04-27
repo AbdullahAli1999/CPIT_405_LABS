@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="LaLiga_style.css">
+    <title>LaLiga</title>
+</head>
+<body>
+    <h2>LaLiga Schedule for Week 20 (APR 27 - Feb 30) 2023</h2>
+    <input type="text" id="searchBox" onkeyup="filterByTeam()" placeholder="Search for team" title="Type in a team.">
+    <select class="select_broadcasters" onchange="filterByBroadcast()">
+      <option selected="" value="">All Broadcasters</option>
+      <option value="beIN">beIN Sports</option>
+      <option value="LaLiga TV">LaLiga TVs</option>
+      <option value="Sky news">Sky news</option>
+    </select>
+    <h3>Thursday, April 27</h3>
+    <table class="LaLigaSchedule">
+      <thead>
+        <tr>
+          <th>Time</th>
+          <th>Teams</th>
+          <th>Broadcaster</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>8:30 PM AST</td>
+          <td>Valencia @ Valladolid</td>
+          <td>Sky news</td>
+        </tr>
+        <tr>
+          <td>11:00 PM AST</td>
+          <td>Athletic Club @ Sevilla</td>
+          <td>beIN Sports</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h3>Friday, April 28</h3>
+    <table class="LaLigaSchedule">
+      <thead>
+        <tr>
+          <th>Time</th>
+          <th>Teams</th>
+          <th>Broadcaster</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>10:00 PM AST</td>
+          <td>Osasuna @ Real Sociedad</td>
+          <td>Sky news</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h3>Saturday, April 29</h3>
+    <table class="LaLigaSchedule">
+      <thead>
+        <tr>
+          <th>Time</th>
+          <th>Teams</th>
+          <th>Broadcaster</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>7:00 PM AST</td>
+          <td>Elche @ Vallecano</td>
+          <td>LaLiga TV</td>
+        </tr>
+        <tr>
+          <td>3:30 AM AST</td>
+          <td>Real Madrid @ Almería </td>
+          <td>beIN Sports</td>
+        </tr>
+        <tr>
+          <td>4:00 AM AST</td>
+          <td>Barcelona @ Real Betis</td>
+          <td>beIN Sports</td>
+        </tr>
+        
+      </tbody>
+    </table>
+
+    <script src="./script_la.js"></script>
+</body>
+</html>
