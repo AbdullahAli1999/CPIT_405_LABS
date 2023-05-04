@@ -16,7 +16,9 @@ function doLike(){
 }
 
 function doDislike(){
-    downCount--;
+
+    downCount++;
     disLikeElement.innerText = "👎" + downCount;
+    disLikeElement.disabled = true;
     console.log("u DisLike this!");
 }
