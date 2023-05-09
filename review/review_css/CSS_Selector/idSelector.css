@@ -1,0 +1,45 @@
+#h11 {
+    color: darkblue;
+    font-size: 120;
+}
+
+#p11 {
+    color: darkgoldenrod;
+    font-size: 20;
+}
+
+#p22 {
+    color: darkred;
+    font-size: 600;
+}
+
+ul {
+    background-color: #eee;
+    padding: 0px;
+    height: 40px;
+  }
+  
+  ul li {
+    list-style-type: none;
+    float: left;
+    margin-right: 30px;
+  }
+  
+  ul li:last-child {
+    float: right;
+    margin-right: 0px;
+  }
+  
+  ul li a {
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+    width: 130px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  ul li a:hover {
+    background-color: #7e7e7e;
+  }

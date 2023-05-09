@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>Return Request Form</h1>
+    <form>
+        <h2>Personal Information</h2>
+        <label for="fristName">First name:</label>
+        <input id="fristName" name="fristName" type="text" minlength="2" maxlength="15" size="17" required>
+        <br>
+        <label for="lastName">Last name:</label>
+        <input id="lastName" name="lastName" type="text" minlength="2" maxlength="15" size="17" required>
+        <br>
+        <label for="emailA">E-mail:</label>
+        <input type="text" name="emailA" id="emailA" size="17">
+        <br>
+        <h2>Adress:</h2>
+        <label for="StreetA">Street Address:</label>
+        <input type="text" name="StreetA" id="StreetA" size="17">
+        <br>
+        <label for="CityC">City:</label>
+        <select name="cities" id="CityC">
+            <option value="Makkah">Makkah</option>
+        </select>
+        <br>
+        <h2>Order:</h2>
+        <label for="Odate">Order date:</label>
+        <input type="date" id="Odate" name="O-date" min="1-4-1998" max="4-4-1999">
+        
+    </form>
+</body>
+</html>

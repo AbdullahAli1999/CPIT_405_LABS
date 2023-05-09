@@ -4,14 +4,14 @@ const initDislikes = 20;
 let upCount = intitLikes
 let downCount = initDislikes
 
-let likesElment = document.getElementById("likebutton");
-let disLikeElement = document.getElementById("dislikebutton");
-likesElment.innerText = "👍" + intitLikes;
-disLikeElement.innerText = "👎" + initDislikes;
+let likesBtn = document.getElementById("likebutton");
+let disLikesBtn = document.getElementById("dislikebutton");
+likesBtn.innerHTML = "👍" + intitLikes;
+disLikesBtn.innerHTML = "👎" + initDislikes;
 
 function doLike(){
     upCount++;
-    likesElment.innerText = "👍" + upCount
+    likesBtn.innerHTML = "👍" + upCount
     console.log("You Like this!!!!");
 }
 
