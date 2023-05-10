@@ -1,0 +1,40 @@
+html, body{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 30px;
+}
+
+#wrapper{
+    display: grid;
+    min-height: 100%;
+    gap: 10px;
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns:auto 1fr ;
+    grid-template-areas: 
+    "head head"
+    "nav main"
+    "foot foot";
+}
+
+header {
+    grid-area: head;
+    background-color: cadetblue;
+}
+
+nav {
+    grid-area: nav;
+    background-color: darkblue;
+
+}
+
+main {
+    grid-area: main;
+    background-color: darkolivegreen;
+
+}
+
+footer{
+    grid-area: foot;
+    background-color: deepskyblue;
+}
