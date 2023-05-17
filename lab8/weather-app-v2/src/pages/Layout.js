@@ -1,7 +1,10 @@
-import Header from '..componets/Header';
+import   Header from '../cc/Header';
 
 export default function Layout(){
     return(
-       <Header/>
+        <>
+        <Header />
+        </>
+       
     )
 }
