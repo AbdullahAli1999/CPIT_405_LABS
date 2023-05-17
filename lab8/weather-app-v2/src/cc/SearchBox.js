@@ -13,7 +13,7 @@ export default function SearchBox(){
         try {
             const response = await fetch(URL,{method: 'GET', headers:{Accept: 'application/json'}});
             if (!response.ok) {
-                throw new Error("Error failed to send an HTTP GET Requset ${response.status}");
+                throw new Error('Error failed to send an HTTP GET Requset: ${response.status}');
                 
             }
             const data = await response.json();
