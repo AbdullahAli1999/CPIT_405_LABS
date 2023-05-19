@@ -1,4 +1,4 @@
-import   Header from '../cc/Header';
+import Header from '../cc/Header';
 
 export default function Layout(){
     return(
